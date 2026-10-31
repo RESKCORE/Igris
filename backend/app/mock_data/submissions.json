@@ -1,0 +1,101 @@
+[
+  {
+    "form_type": "order",
+    "data": {
+      "customer_name": "Asha Traders",
+      "customer_email": "asha@example.com",
+      "sku": "SKU-WHEAT-25KG",
+      "qty": 3,
+      "price": 3600
+    }
+  },
+  {
+    "form_type": "order",
+    "data": {
+      "customer_name": "Ravi Stores",
+      "customer_email": "ravi@@example",
+      "sku": "SKU-RICE-10KG",
+      "qty": 2,
+      "price": 1600
+    }
+  },
+  {
+    "form_type": "order",
+    "data": {
+      "customer_name": "Meena Boutique",
+      "customer_email": "meena@example.com",
+      "sku": "SKU-OIL-5L",
+      "qty": 5,
+      "price": 4500
+    }
+  },
+  {
+    "form_type": "appointment",
+    "data": {
+      "customer_name": "Kiran Sharma",
+      "resource": "Consultation Room",
+      "slot_start": "2026-11-08T10:00:00",
+      "slot_end": "2026-11-08T11:00:00"
+    }
+  },
+  {
+    "form_type": "order",
+    "data": {
+      "customer_name": "Lakshmi Clinic",
+      "customer_email": "",
+      "sku": "SKU-CLEANER-5L",
+      "qty": 4,
+      "price": 2200
+    }
+  },
+  {
+    "form_type": "order",
+    "data": {
+      "customer_name": "Suresh Foods",
+      "customer_email": "suresh@example.com",
+      "sku": "SKU-SPICES-ASST",
+      "qty": -1,
+      "price": -180
+    }
+  },
+  {
+    "form_type": "order",
+    "data": {
+      "customer_name": "Pooja Electronics",
+      "customer_email": "pooja@example.com",
+      "sku": "SKU-SNACKS-PACK",
+      "qty": 10,
+      "price": 1500
+    }
+  },
+  {
+    "form_type": "appointment",
+    "data": {
+      "customer_name": "Vijay Textiles",
+      "resource": "Delivery Van A",
+      "slot_start": "2026-11-08T14:00:00",
+      "slot_end": "2026-11-08T15:30:00"
+    }
+  },
+  {
+    "form_type": "order",
+    "data": {
+      "customer_name": "Anand Bakery",
+      "customer_email": "anand@example.com",
+      "sku": "SKU-FLOUR-10KG",
+      "qty": 8,
+      "price": 3600
+    }
+  },
+  {
+    "form_type": "order",
+    "data": {
+      "customer_name": "Gita Enterprises",
+      "customer_email": "gita@example.com",
+      "sku": "SKU-TEA-1KG",
+      "qty": 6,
+      "price": 2700
+    }
+  }
+]
+

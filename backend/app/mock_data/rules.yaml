@@ -1,0 +1,62 @@
+customers:
+  fields:
+    customer_id: {required: true, type: string}
+    name: {required: true, type: string}
+    email: {required: true, type: email}
+    phone: {required: false, type: phone, region: IN}
+    city: {required: false, type: string}
+  dataset_rules:
+    - id: DUP-01
+      type: unique
+      fields: [customer_id]
+    - id: AMB-NAME-01
+      type: name_ambiguity
+      field: name
+
+invoices:
+  fields:
+    invoice_id: {required: true, type: string}
+    customer_id: {required: true, type: string, reference: {dataset: customers, field: customer_id}}
+    amount: {required: true, type: number, min: 1, max: 1000000}
+    due_date: {required: true, type: date, not_after: 365, not_before_year: 2000}
+    status: {required: true, type: string}
+  dataset_rules:
+    - id: DUP-01
+      type: unique
+      fields: [invoice_id]
+    - id: AMT-ANOM-01
+      type: outlier
+      field: amount
+      group_by: customer_id
+      threshold: 8
+
+orders:
+  fields:
+    order_id: {required: true, type: string}
+    customer_id: {required: true, type: string, reference: {dataset: customers, field: customer_id}}
+    sku: {required: true, type: string}
+    qty: {required: true, type: number, min: 1, max: 1000}
+    price: {required: true, type: number, min: 1, max: 1000000}
+    status: {required: true, type: string}
+  dataset_rules:
+    - id: DUP-01
+      type: unique
+      fields: [order_id]
+
+bookings:
+  fields:
+    booking_id: {required: true, type: string}
+    customer_id: {required: true, type: string, reference: {dataset: customers, field: customer_id}}
+    slot_start: {required: true, type: datetime}
+    slot_end: {required: true, type: datetime}
+    resource: {required: true, type: string}
+  dataset_rules:
+    - id: DUP-01
+      type: unique
+      fields: [booking_id]
+    - id: CNF-01
+      type: resource_conflict
+      resource_field: resource
+      start_field: slot_start
+      end_field: slot_end
+

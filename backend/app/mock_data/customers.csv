@@ -1,0 +1,27 @@
+customer_id,name,email,phone,city
+CUST-001,Asha Traders,asha@example.com,+919820011111,Mumbai
+CUST-002,Ravi Stores,ravi@@example,+919820022222,Pune
+CUST-003,Meena Boutique,meena@example.com,+919820033333,Bengaluru
+CUST-004,Kiran Sharma,kiran.sharma@example.com,+919820044444,Mumbai
+CUST-005,Lakshmi Clinic,,+919820055555,Chennai
+CUST-006,Suresh Foods,suresh@example.com,+919820066666,Hyderabad
+CUST-007,Pooja Electronics,pooja@example.com,+919820077777,Ahmedabad
+CUST-008,Vijay Textiles,vijay@example.com,12345,Surat
+CUST-009,Anand Bakery,anand@example.com,+919820099999,Jaipur
+CUST-010,Gita Enterprises,gita@example.com,+919820010101,Delhi
+CUST-011,Deepak Auto,deepak@example.com,+919820011112,Kolkata
+CUST-012,Sunita Jewellers,sunita@example.com,+919820012121,Indore
+CUST-013,Manoj Hardware,manoj@example.com,+919820013131,Nagpur
+CUST-014,Kiran Patel,kiran.patel@example.com,+919820014141,Ahmedabad
+CUST-015,Rajesh Logistics,rajesh@example.com,+919820015151,Chandigarh
+CUST-016,Sneha Pharmacy,sneha@example.com,+919820016161,Lucknow
+CUST-017,Amit Stationery,amit@example.com,+919820017171,Bhopal
+CUST-018,Neha Garments,neha@example.com,+919820018181,Kanpur
+CUST-019,Rohan Dairy,rohan@example.com,+919820019191,Patna
+CUST-020,Swati Crafts,swati@example.com,+919820020202,Vadodara
+CUST-021,Alok Furnishings,alok@example.com,+919820021212,Ludhiana
+CUST-022,Kavita Florist,kavita@example.com,+919820022223,Agra
+CUST-023,Tarun Mobile,tarun@example.com,+919820023232,Nashik
+CUST-024,Bina Supermarket,bina@example.com,+919820024242,Varanasi
+CUST-025,Prakash Optical,prakash@example.com,+919820025252,Rajkot
+
